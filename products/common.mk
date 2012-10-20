@@ -127,3 +127,4 @@ endif
 # Required, keyboard
 PRODUCT_PACKAGES += LatinIME
 
+$(call inherit-product, vendor/mrom/mrom.mk)
