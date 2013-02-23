@@ -19,7 +19,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 KERNEL_MODULES_DIR:=/system/lib/modules
 
 # Tiny toolbox
-TINY_TOOLBOX:=true
+# TINY_TOOLBOX:=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
